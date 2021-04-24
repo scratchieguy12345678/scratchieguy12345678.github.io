@@ -1,8 +1,8 @@
-class NitroBlock {
+class XtraBlox {
     getInfo() {
         return {
-            "id": "XtraBlocks",
-            "name": "XtraBlocks",
+            "id": "XtraBlox",
+            "name": "XtraBlox",
             "blocks": [{
                     "opcode": "xor",
                     "blockType": "reporter",
@@ -26,4 +26,5 @@ class NitroBlock {
         return string.substring(!bool1 != !bool2);
     };
 }
+Scratch.extensions.register(new XtraBlocks());
 
