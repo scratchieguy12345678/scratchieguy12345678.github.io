@@ -14,6 +14,7 @@ div.a {
 <body>
 <div class="a">
 <h1>Jokes</h1>
+<p><small>Jokes were definitely not stolen from ocular.jeffalo.net</small></p>
 <script>
 jokes = [
     "!false (It's funny because it's true).",
@@ -44,7 +45,6 @@ function generate() {
   document.getElementById("joke").innerHTML = jokes[Math.floor(Math.random() * jokes.length)]
 }
 </script>
-<p><small>Jokes were definitely not stolen from ocular.jeffalo.net</small></p>
 <button type="button" onclick="generate()">Tell me a joke!</button>
 <p id="joke"></p>
 
