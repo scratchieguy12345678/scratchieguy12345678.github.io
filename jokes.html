@@ -41,8 +41,7 @@ jokes = [
     "I got fired from my job at the keyboard factory today. They told me I wasn't putting in enough shifts."
 ]
 function generate() {
-  alert(jokes[Math.random() * jokes.length])
-  document.getElementById("joke").innerHTML = "Hello World"
+  document.getElementById("joke").innerHTML = jokes[Math.random() * jokes.length]
 }
 </script>
 <button type="button" onclick="generate()">Tell me a joke!</button>
