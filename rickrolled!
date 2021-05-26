@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RICKROLLED!</title>
+</head>
+
+<body>
+<iframe id="video" src="//www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" frameborder="0" allowfullscreen></iframe>
+$(function(){
+  $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+
+  // If you want to keep full screen on window resize
+  $(window).resize(function(){
+    $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+  });
+});
+</body>
+
+</html>
